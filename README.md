@@ -17,6 +17,8 @@ build:
     - ikachan-notify:
       url: ikachan post url
       channel: channel name
+      passed-message: "%02[CI]%0f $WERCKER_APPLICATION_NAME: $WERCKER_BUILD_URL build of $WERCKER_GIT_BRANCH %02%0301,03PASSED%0f"
+      failed-message: "%02[CI]%0f $WERCKER_APPLICATION_NAME: $WERCKER_BUILD_URL build of $WERCKER_GIT_BRANCH %02%0301,04FAILED%0f"
 ```
 
 # License
